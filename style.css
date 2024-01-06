@@ -9,10 +9,6 @@ body {
     font-size: 22px;
 }
 
-img {
-    width: 600px;
-    height: auto;
-}
 
 .box {
     background: white;
@@ -26,4 +22,30 @@ img {
 .box h1 {
     margin-bottom: 20px;
     text-decoration: underline;
+}
+
+.box-recipe {
+    border: 2px solid black;
+    background: white;
+    text-align: justify;
+    height: auto;
+    width: 800px;
+    margin: 15px auto;
+    padding: 40px;
+}
+    
+.box-recipe img {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 18px auto;
+}
+
+.box-recipe h1,h2 {
+    text-align: center;
+    margin: 18px auto;
+}
+
+.box-recipe h1{
+    margin-top: 0px;
 }
